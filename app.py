@@ -9,7 +9,7 @@ app=Flask(__name__)
 #local database
 #app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:qwerty@localhost/height_collector'
 #cloud database
-app.config['SQLALCHEMY_DATABASE_URI']='postgres://mgvgqkstuajdaj:e7b4a0c9c2750abfabbef7657f00acce310bc1daac478709da0ecbf91a3e244a@ec2-174-129-193-169.compute-1.amazonaws.com:5432/d97hf65svell4j?sslmode=require'
+app.config['SQLALCHEMY_DATABASE_URI']='DELETED DUE TO SECURITY REASONS'
 
 db=SQLAlchemy(app)
 
